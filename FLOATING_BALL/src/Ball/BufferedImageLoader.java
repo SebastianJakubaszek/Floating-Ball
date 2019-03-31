@@ -1,0 +1,27 @@
+package Ball;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+
+/**
+ * Klasa sluzaca do ladowania obrazkow z okreslonej sciezki
+ */
+public class BufferedImageLoader {
+
+    private BufferedImage image;
+
+    /**
+     * Konstruktor klasy, sluzy do ladowania obrazkow z okreslonej sciezki
+     * @param path
+     * @return
+     */
+    public BufferedImage loadImage(String path){
+        try {
+            image = ImageIO.read(getClass().getResource(path));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return image;
+    }
+}

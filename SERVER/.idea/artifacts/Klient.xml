@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Klient">
+    <output-path>$USER_HOME$/Desktop/jary_do_projektu/Serwer</output-path>
+    <root id="archive" name="Klient.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$USER_HOME$/Desktop/jary_do_projektu/Serwer/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
