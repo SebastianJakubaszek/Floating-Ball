@@ -20,7 +20,7 @@ Our project based on a client-server model. If the client is connected to the In
 
 ## Game demonstration
 
-![](./readme_images/menu.png)
+![](./readme_images/menu1.png)
 ![](./readme_images/help.png)
 ![](./readme_images/choose_ball.png)
 ![](./readme_images/difficulty_level.png)
